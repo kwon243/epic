@@ -8,8 +8,8 @@ epic_cli.py
 Menu-driven CLI wrapper for make_groups.py and DB maintenance.
 
 Assumptions:
-- db/ is in the same directory as make_groups.py and epic_cli.py (no prompting).
-- default Excel file for signups is responses.xlsx (same directory as scripts).
+- db/, make_groups.py, epic_excel_check.py, and epic_cli.py must be in the same directory.
+- default Excel file for signups is responses.xlsx.
 
 Top-level:
   1) Make groups (guided prompts, runs make_groups.py)

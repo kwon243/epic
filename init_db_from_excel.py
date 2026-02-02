@@ -4,6 +4,7 @@ Author: Jinhwan Kwon
 Last Modified: Feb 2026
 
 Initialize people.csv and pair_scores.csv from an Excel signup file.
+Should not be run.
 
 - people.csv is preloaded from Excel
 - pair_scores.csv is created empty with headers

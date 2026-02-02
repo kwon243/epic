@@ -5,7 +5,7 @@ Last Modified: Feb 2026
 
 epic_excel_check.py
 
-Interactive validator + fixer for Epic weekly responses Excel sheets.
+Interactive validator + fixer for response sheets.
 
 What it does:
 - Loads a specific sheet (e.g., "Round 4")
@@ -14,14 +14,14 @@ What it does:
   - missing first/last name (if columns exist)
   - duplicate phone rows (keeps the first, flags the rest)
 - For bad entries:
-  - checks people.csv for same phone and offers "override from DB"
+  - checks people.csv for similar entries and overrides
   - offers manual edit
   - offers delete row
-- Finds phones in Excel not in people.csv and offers to add them
-- Writes updates back to the Excel file (with a .bak_ timestamp backup)
+- Identifies new numbers and checks for typos
+- Writes updates back to the Excel file
 
 Email column handling:
-- If email column is missing, we skip it.
+- If email column is missing, we skip it. (legacy)
 - If present but blank, we can fill from people.csv when overriding.
 """
 

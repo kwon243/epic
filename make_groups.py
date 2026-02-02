@@ -3,9 +3,9 @@
 Author: Jinhwan Kwon
 Last Modified: Feb 2026
 
-Weekly grouping script (2-3 people) with pairwise recency scores.
+Grouping script (2-3 people) with pairwise recency scores.
 
-- People identity is phone (string). Never infer from name/email.
+- Primary key is phone number (string). Never infer from name/email. (because David Kim)
 - Pair scores stored canonically: phone_a < phone_b (string compare).
 - Locked pairs are forbidden; any group containing one is invalid.
 - Missing pair rows are treated as score=0, locked=false.
@@ -13,6 +13,7 @@ Weekly grouping script (2-3 people) with pairwise recency scores.
 Excel is used for weekly signups and group-size preferences.
 CSV "database" (people.csv, pair_scores.csv) provides canonical person records and scores.
 
+Usage:
 python .\make_groups.py --excel .\responses.xlsx
 """
 
