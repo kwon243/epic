@@ -5,16 +5,16 @@ phone,first_name,last_name,email,gender
 2533178496,Isaac,Parks,isaacmparks@gmail.com,M
 2602000644,Nico,Minnich,,M
 2604142192,Amber,choi,,F
-3148861833,Joshua,Wu,nan,M
+3148861833,Joshua,Wu,,M
 3172199807,Sonya,Schuster,,F
 3173065080,Annie,Lim,koangralim@gmail.com,F
 3173958316,Daisy,Barrett,daisycbarrett@gmail.com,F
-3176431266,Sanika,Chakola,,U
+3176431266,Sanika,Chakola,,F
 3178470225,Christian,Watkins,watkins.christian.jacob@gmail.com,M
 3178698483,Gabby,Choi,,F
 3179227403,Audrey,Schuster,ayschuster@gmail.com,F
 3179351184,Daniel (Yedam),Park,,M
-3179660089,Ella,Freeman,nan,F
+3179660089,Ella,Freeman,,F
 4089639108,Jay,Kwon,kwonjinhwan04@gmail.com,M
 4252196629,Eden,Munroe,edenkmunroe@gmail.com,F
 4632044731,Jonathan,Zhang,jonathanzhang57@gmail.com,M
@@ -31,7 +31,7 @@ phone,first_name,last_name,email,gender
 7654139811,Nehemiah,Kim,nehemiahn.kim@gmail.com,M
 7654187785,Jacob,Peng,paxiayu777@gmail.com,M
 7654188655,Lauren,Edwards,l.edwards.3123@gmail.com,F
-7654307543,Hyun,Kim,hyunkim33456@gmail.com,M
+7654307543,Hyun,Kim,hyunkim33456@gmail.com,F
 7657157282,Nathan,Kim,daedalusthe5th@gmail.com,M
 7736171837,Ben,Morelock,benjmorelock@gmail.com,M
 8582091832,stephen,wang,stephenfwang@outlook.com,M
