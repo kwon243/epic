@@ -1,6 +1,6 @@
 ﻿# Epic Grouping Toolkit
 
-Python toolkit for making biased groups for ebd.
+Python toolkit for making (un)biased groups for ebd.
 
 ## What this repo does
 - You know what it does.
